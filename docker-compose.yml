@@ -19,7 +19,7 @@ services:
       - "20008:20008"
       - "20009:20009"
     volumes:
-      - tilemillVolume:/home/node/
+      - ./tilemillVolume:/home/node/
     environment:
       - PGPORT=5432
       - PGHOST=postgis
